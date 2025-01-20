@@ -107,6 +107,7 @@ function App() {
               src={selectedImage.url}
               alt={`Image ${selectedImage.id}`}
               className="max-w-full max-h-full"
+              onClick={closeModal}
             />
           </div>
         </div>
